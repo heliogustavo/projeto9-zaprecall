@@ -1,12 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import './assets/styles/reset.css'
+import './assets/styles/style.css';
 
-function App() {
-  return (
-    <div>
-     
-    </div>
-  );
+import GameScreen from "./GameScreen";
+
+export default function App(){
+    return (
+    
+      <GameScreen />
+        
+    );
 }
-
-export default App;
